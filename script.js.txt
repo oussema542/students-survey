@@ -1,0 +1,7 @@
+document.getElementById('survey-form').addEventListener('submit', function(e) {
+  e.preventDefault();
+
+  // You can collect form data here if you want
+  alert('Merci pour votre participation !');
+  this.reset();
+});

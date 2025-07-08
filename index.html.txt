@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Questionnaire de satisfaction étudiante</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>Questionnaire de satisfaction</h1>
+  <form id="survey-form">
+    <label for="name">Nom :</label>
+    <input type="text" id="name" name="name" required />
+
+    <label for="faculty">Faculté :</label>
+    <select id="faculty" name="faculty" required>
+      <option value="">Sélectionnez votre faculté</option>
+      <option value="science">Sciences</option>
+      <option value="lettres">Lettres</option>
+      <option value="droit">Droit</option>
+      <option value="medecine">Médecine</option>
+      <option value="autre">Autre</option>
+    </select>
+
+    <hr />
+    <h3>Merci de noter votre niveau de satisfaction :</h3>
+
+    <label>1. Qualité des cours :</label>
+    <select name="q1" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>2. Compétence des enseignants :</label>
+    <select name="q2" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>3. Disponibilité des enseignants :</label>
+    <select name="q3" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>4. Clarté des explications :</label>
+    <select name="q4" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>5. Contenu des matières :</label>
+    <select name="q5" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>6. Encadrement administratif :</label>
+    <select name="q6" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>7. Accès aux ressources pédagogiques :</label>
+    <select name="q7" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>8. Infrastructures (salles, équipements, etc.) :</label>
+    <select name="q8" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>9. Communication de l'université :</label>
+    <select name="q9" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <label>10. Satisfaction générale :</label>
+    <select name="q10" required>
+      <option value="">Choisissez</option>
+      <option value="4">Très satisfait(e)</option>
+      <option value="3">Satisfait(e)</option>
+      <option value="2">Insatisfait(e)</option>
+      <option value="1">Très insatisfait(e)</option>
+    </select>
+
+    <br /><br />
+    <button type="submit">Envoyer</button>
+  </form>
+
+  <script src="script.js"></script>
+</body>
+</html>
